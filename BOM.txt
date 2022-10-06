@@ -1,0 +1,8 @@
+Partlist exported from C:/Users/Masato/Documents/EAGLE/projects/ICM-42688-P_Module/ICM-42688-P_Module.sch at 2022/10/06 18:30
+
+Qty Value                        Device                       Package           Parts Description                
+1   0.1u                         C-USC0402                    C0402             C1    CAPACITOR, American symbol 
+1   10n                          C-USC0402                    C0402             C3    CAPACITOR, American symbol 
+1   2.2u                         C-USC0402                    C0402             C2    CAPACITOR, American symbol 
+1   ICM-42688-P                  ICM-42688-P                  ICM-42688-P       U1                               
+1   ICM-42688-P-MODULE-PINHEADER ICM-42688-P-MODULE-PINHEADER FOR-MODULE-MAKING P1                               
