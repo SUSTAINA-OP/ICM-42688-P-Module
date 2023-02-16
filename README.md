@@ -63,8 +63,8 @@
               <tr>
                 <td>C2</td>
                 <td>1</td>
-                <td>GRM155R61A225KE01D</td>
-                <td><a href="https://www.mouser.jp/ProductDetail/81-GRM155R61A225K01D">Mouser</a></td>
+                <td>GRM155R60J225ME01J</td>
+                <td><a href="https://www.mouser.jp/ProductDetail/81-GRM155R60J225M01J">Mouser</a></td>
                 <td>Multilayer Ceramic Capacitors SMD/SMT 2.2uF 10V 10%  0402</td>
               </tr>
               <tr>
