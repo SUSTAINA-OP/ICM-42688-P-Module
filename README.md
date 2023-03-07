@@ -58,21 +58,21 @@
                 <td>1</td>
                 <td>GRM155R71C104JA88D</td>
                 <td><a href="https://www.mouser.jp/ProductDetail/81-GRM155R71C104JA8D">Mouser</a></td>
-                <td>Multilayer Ceramic Capacitors SMD/SMT 0.1uF 16V 5%  0402</td>
+                <td>Multilayer Ceramic Capacitors SMD/SMT 0.1uF 16V 5% X7R 0402</td>
               </tr>
               <tr>
                 <td>C2</td>
                 <td>1</td>
-                <td>GRM155R60J225ME01J</td>
-                <td><a href="https://www.mouser.jp/ProductDetail/81-GRM155R60J225M01J">Mouser</a></td>
-                <td>Multilayer Ceramic Capacitors SMD/SMT 2.2uF 10V 10%  0402</td>
+                <td>GRM155Z71A225KE01D</td>
+                <td><a href="https://www.mouser.jp/ProductDetail/81-GRM155Z71A225KE1D">Mouser</a></td>
+                <td>Multilayer Ceramic Capacitors SMD/SMT 2.2uF 10V 10% X7R 0402</td>
               </tr>
               <tr>
                 <td>C3</td>
                 <td>1</td>
-                <td>GRM155R71H103JA88D</td>
-                <td><a href="https://www.mouser.jp/ProductDetail/81-GRM155R71H103JA8D">Mouser</a></td>
-                <td>Multilayer Ceramic Capacitors SMD/SMT 10nF 50V 5%  0402</td>
+                <td>GRM155R71E103KA01D</td>
+                <td><a href="https://www.mouser.jp/ProductDetail/81-GRM36X103K25">Mouser</a></td>
+                <td>Multilayer Ceramic Capacitors SMD/SMT 10nF 25V 10% X7R 0402</td>
               </tr>
             </tbody>
           </table>
