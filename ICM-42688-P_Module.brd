@@ -94,7 +94,7 @@
 <wire x1="5.08" y1="-6.35" x2="5.08" y2="6.35" width="0.1524" layer="20" locked="yes"/>
 <wire x1="5.08" y1="6.35" x2="-5.08" y2="6.35" width="0.1524" layer="20" locked="yes"/>
 <text x="0.15875" y="1.905" size="0.5" layer="21" font="vector" ratio="10" align="center">ICM-42688-P</text>
-<text x="-1.27" y="0" size="0.6" layer="22" font="vector" ratio="10" rot="MR270" align="center">ICM-42688-P Module Ver 1.0
+<text x="-1.27" y="0" size="0.6" layer="22" font="vector" ratio="10" rot="MR270" align="center">ICM-42688-P Module Ver. 1.0
 Designed by Masato Kubotera
 on March 7, 2023.</text>
 <wire x1="1.11125" y1="-4.445" x2="-0.47625" y2="-4.445" width="0.2032" layer="25"/>
