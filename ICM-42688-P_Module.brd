@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="6.25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1.27" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="1.27" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -94,9 +94,9 @@
 <wire x1="5.08" y1="-6.35" x2="5.08" y2="6.35" width="0.1524" layer="20" locked="yes"/>
 <wire x1="5.08" y1="6.35" x2="-5.08" y2="6.35" width="0.1524" layer="20" locked="yes"/>
 <text x="0.15875" y="1.905" size="0.5" layer="21" font="vector" ratio="10" align="center">ICM-42688-P</text>
-<text x="-1.27" y="0" size="0.5" layer="22" font="vector" ratio="10" rot="MR270" align="center">ICM-42688-P Module Ver 1.0
+<text x="-1.27" y="0" size="0.6" layer="22" font="vector" ratio="10" rot="MR270" align="center">ICM-42688-P Module Ver 1.0
 Designed by Masato Kubotera
-on October 5, 2022.</text>
+on March 7, 2023.</text>
 <wire x1="1.11125" y1="-4.445" x2="-0.47625" y2="-4.445" width="0.2032" layer="25"/>
 <wire x1="-0.47625" y1="-4.445" x2="-0.15875" y2="-4.1275" width="0.2032" layer="25"/>
 <wire x1="-0.15875" y1="-4.1275" x2="-0.15875" y2="-4.7625" width="0.2032" layer="25"/>
@@ -114,6 +114,8 @@ on October 5, 2022.</text>
 <wire x1="0" y1="-3.175" x2="0.47625" y2="-3.175" width="0.2032" layer="25"/>
 <wire x1="0.47625" y1="-3.175" x2="0.3175" y2="-2.8575" width="0.2032" layer="25"/>
 <text x="0" y="-5.87375" size="0.5" layer="21" font="vector" ratio="10" align="center">Accel. Gyro.</text>
+<dimension x1="5.08" y1="-6.35" x2="5.08" y2="6.35" x3="10.16" y3="0" textsize="1.778" layer="48"/>
+<dimension x1="5.08" y1="6.35" x2="-5.08" y2="6.35" x3="0" y3="8.89" textsize="1.778" layer="48"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">

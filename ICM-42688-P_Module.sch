@@ -4534,8 +4534,10 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="-15.24" y1="-10.16" x2="15.24" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-10.16" x2="15.24" y2="10.16" width="0.254" layer="94"/>
 <wire x1="15.24" y1="10.16" x2="-15.24" y2="10.16" width="0.254" layer="94"/>
-<text x="0" y="15.24" size="1.27" layer="95" font="vector" ratio="10" align="center">&gt;NAME</text>
-<text x="0" y="12.7" size="1.27" layer="95" font="vector" ratio="10" align="center">ICM-42688-P Module Pin Header</text>
+<text x="0" y="15.24" size="1.778" layer="95" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="12.7" size="1.778" layer="95" font="vector" ratio="10" align="center">ICM-42688-P Module Pin Header</text>
+<pin name="NC1" x="17.78" y="-2.54" length="short" direction="nc" rot="R180"/>
+<pin name="NC2" x="17.78" y="0" length="short" direction="nc" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4553,6 +4555,8 @@ Source: AVX .. aphvc.pdf</description>
 <connect gate="G$1" pin="GND" pad="10"/>
 <connect gate="G$1" pin="INT1/INT" pad="9"/>
 <connect gate="G$1" pin="INT2/FSYNC/CLKIN" pad="11"/>
+<connect gate="G$1" pin="NC1" pad="7"/>
+<connect gate="G$1" pin="NC2" pad="8"/>
 <connect gate="G$1" pin="VDD" pad="1"/>
 <connect gate="G$1" pin="VDDIO" pad="2"/>
 </connects>
@@ -4613,8 +4617,8 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="-22.86" y1="-22.86" x2="22.86" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="22.86" y1="-22.86" x2="22.86" y2="22.86" width="0.254" layer="94"/>
 <wire x1="22.86" y1="22.86" x2="-22.86" y2="22.86" width="0.254" layer="94"/>
-<text x="-15.24" y="27.94" size="1.27" layer="97" font="vector" ratio="10" align="center">&gt;NAME</text>
-<text x="-15.24" y="25.4" size="1.27" layer="97" font="vector" ratio="10" align="center">ICM-42688-P</text>
+<text x="20.32" y="27.94" size="1.778" layer="97" font="vector" ratio="10" align="center">&gt;NAME</text>
+<text x="20.32" y="25.4" size="1.778" layer="97" font="vector" ratio="10" align="center">ICM-42688-P</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4675,12 +4679,12 @@ Source: AVX .. aphvc.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="182.88" y="5.08" size="5.08" layer="94" font="vector" ratio="10" align="center-left">October 5, 2022</text>
+<text x="182.88" y="5.08" size="5.08" layer="94" font="vector" ratio="10" align="center-left">March 7, 2023</text>
 <text x="182.88" y="25.4" size="5.08" layer="94" font="vector" ratio="10" align="center-left">ICM-42688-P Module</text>
 <text x="264.16" y="15.24" size="5.08" layer="94" font="vector" ratio="10" align="center-left">1.0</text>
 <text x="269.24" y="5.08" size="5.08" layer="94" font="vector" ratio="10" align="center-left">1/1</text>
 <wire x1="165.1" y1="210" x2="165.1" y2="45.72" width="0.1524" layer="97" style="longdash"/>
-<text x="5.08" y="200.66" size="5.08" layer="97">ICM-42688 Sensor</text>
+<text x="5.08" y="200.66" size="5.08" layer="97">ICM-42688-P Sensor</text>
 <text x="170.18" y="200.66" size="5.08" layer="97">Pin Headers</text>
 </plain>
 <instances>
@@ -4713,13 +4717,13 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="VALUE" x="71.12" y="68.58" size="1.778" layer="96"/>
 </instance>
 <instance part="P1" gate="G$1" x="228.6" y="121.92" smashed="yes">
-<attribute name="NAME" x="228.6" y="137.16" size="1.27" layer="95" font="vector" ratio="10" align="center"/>
+<attribute name="NAME" x="228.6" y="137.16" size="1.778" layer="95" font="vector" ratio="10" align="center"/>
 </instance>
 <instance part="GND1" gate="1" x="248.92" y="106.68" smashed="yes">
 <attribute name="VALUE" x="246.38" y="104.14" size="1.778" layer="96"/>
 </instance>
 <instance part="U1" gate="G$1" x="78.74" y="121.92" smashed="yes">
-<attribute name="NAME" x="63.5" y="149.86" size="1.27" layer="97" font="vector" ratio="10" align="center"/>
+<attribute name="NAME" x="99.06" y="149.86" size="1.778" layer="97" font="vector" ratio="10" align="center"/>
 </instance>
 </instances>
 <busses>

@@ -1,5 +1,3 @@
-Partlist exported from C:/Users/Masato/Documents/EAGLE/projects/ICM-42688-P_Module/ICM-42688-P_Module.sch at 2022/10/06 18:30
-
 Qty Value                        Device                       Package           Parts Description                
 1   0.1u                         C-USC0402                    C0402             C1    CAPACITOR, American symbol 
 1   10n                          C-USC0402                    C0402             C3    CAPACITOR, American symbol 
