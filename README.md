@@ -4,6 +4,7 @@
     <meta name="author" content="Masato Kubotera">
   </head>
   <body>
+    <strong>This product is currently under development and has not been tested.</strong>
     <h1>ICM-42688-P-Module</h1>
     <h2>About ICM-42688-P-Module</h2>
     <p>
@@ -119,6 +120,7 @@
               </tr>
             </tbody>
           </table>
+          Exterior components were determined with reference to <a href="https://product.tdk.com/system/files/dam/doc/product/sensor/mortion-inertial/imu/data_sheet/ds-000347-icm-42688-p-v1.6.pdf#page=22">ICM-42688-P Datasheet</a>.
       </p>
     <h2>Contact</h2>
     <p>
