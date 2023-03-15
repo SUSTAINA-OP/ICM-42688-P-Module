@@ -16,16 +16,16 @@
             <li>4" x 5" (10.16 mm x 12.70 mm) PCB layout</li>
             <li>2 x 5-pin + 1-pin 0.1" spaced PTH
                 <ul>
-                    <li>VDD : Power supply voltage</li>
-                    <li>VDDIO : IO power supply voltage</li>
-                    <li>SCL / SCLK : I2C serial clock / AP SPI serial clock</li>
-                    <li>SDA / SDI :  I2C serial data / SPI serial data input (4-wire mode)</li>
-                    <li>AD0 / SDO :  I2C slave address LSB / SPI serial data output (4-wire mode)</li>
-                    <li>CS : SPI Chip select (Connect to VDDIO if using I2C interface)</li>
-                    <li>INT1 / INT : Interrupt 1 / All interrupts mapped to pin 4</li>
-                    <li>INT2 / FSYNC / CLKIN : Interrupt 2 / Frame sync input / External clock input</li>
-                    <li>GND : Common Ground</li>
-                    <li>NC : Non Connection</li>
+                    <li><strong>VDD</strong> : Power supply voltage</li>
+                    <li><strong>VDDIO</strong> : IO power supply voltage</li>
+                    <li><strong>SCL / SCLK</strong> : I2C serial clock / AP SPI serial clock</li>
+                    <li><strong>SDA / SDI</strong> :  I2C serial data / SPI serial data input (4-wire mode)</li>
+                    <li><strong>AD0 / SDO</strong> :  I2C slave address LSB / SPI serial data output (4-wire mode)</li>
+                    <li><strong>CS</strong> : SPI Chip select (Connect to VDDIO if using I2C interface)</li>
+                    <li><strong>INT1 / INT</strong> : Interrupt 1 / All interrupts mapped to pin 4</li>
+                    <li><strong>INT2 / FSYNC / CLKIN</strong> : Interrupt 2 / Frame sync input / External clock input</li>
+                    <li><strong>GND</strong> : Common Ground</li>
+                    <li><strong>NC</strong> : Non Connection</li>
                 </ul>
             </li>
         </ul>
