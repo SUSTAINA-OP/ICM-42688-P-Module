@@ -122,6 +122,111 @@
           </table>
           Exterior components were determined with reference to <a href="https://product.tdk.com/system/files/dam/doc/product/sensor/mortion-inertial/imu/data_sheet/ds-000347-icm-42688-p-v1.6.pdf#page=22">ICM-42688-P Datasheet</a>.
       </p>
+    <h2>Confirmation of operation</h2>
+    <p>
+      The following Arduino Library https://github.com/finani/ICM42688 was used to verify the operation.<br>      
+      The Arduino Board used is "Arduiono Due". 
+      <ul>
+        <li><strong>SPI</strong> : https://github.com/finani/ICM42688/tree/master/examples/Basic_SPI</li>
+        Wiring with Arudino Due is done as follows.
+        <table>
+            <thead>
+              <tr>
+                <th> ICM-42688-P Module Pin </th>
+                <th> Arudiono Board Pin </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>VDD</td>
+                <td>3.3V</td>
+              </tr>
+              <tr>
+                <td>VDDIO</td>
+                <td>3.3V</td>
+              </tr>
+              <tr>
+                <td>SCL/SCLK</td>
+                <td>SCK</td>
+              </tr>
+              <tr>
+                <td>SDA _SDI</td>
+                <td>MOSI</td>
+              </tr>
+              <tr>
+                <td>AD0/SD0</td>
+                <td>MISO</td>
+              </tr>
+              <tr>
+                <td>CS</td>
+                <td>Any GPIO<br>
+(In the case of the sample sketch, digital pin 10 of arduino due board is used .)</td>
+              </tr>
+              <tr>
+                <td>INT1/INT</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>GND</td>
+                <td>GND</td>
+              </tr>
+              <tr>
+                <td>INT2/FSYNC/CLKIN</td>
+                <td>-</td>
+              </tr>
+            </tbody>
+          </table>
+        <li><strong>I2C</strong> : https://github.com/finani/ICM42688/blob/master/examples/Basic_I2C/Basic_I2C.ino</li>
+        4.7 kOhm resistors should be used as pullups on SDA and SCL, these resistors should pullup with a 3.3V source.<br>
+        Wiring with Arudino Due is done as follows.
+        <table>
+            <thead>
+              <tr>
+                <th> ICM-42688-P Module Pin </th>
+                <th> Arudiono Board Pin </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>VDD</td>
+                <td>3.3V</td>
+              </tr>
+              <tr>
+                <td>VDDIO</td>
+                <td>3.3V</td>
+              </tr>
+              <tr>
+                <td>SCL/SCLK</td>
+                <td>SCL (digital pin 21 of arduino due board)</td>
+              </tr>
+              <tr>
+                <td>SDA _SDI</td>
+                <td>SDA (digital pin 20 of arduino due board)</td>
+              </tr>
+              <tr>
+                <td>AD0/SD0</td>
+                <td>GND for I2C address 0x68 or 3.3V for I2C address 0x69</td>
+              </tr>
+              <tr>
+                <td>CS</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>INT1/INT</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>GND</td>
+                <td>GND</td>
+              </tr>
+              <tr>
+                <td>INT2/FSYNC/CLKIN</td>
+                <td>-</td>
+              </tr>
+            </tbody>
+          </table>
+      </ul>  
+    </p>
     <h2>Contact</h2>
     <p>
     If you have any questions, please contact MasatoKubotera, the product's designer, by E-mail.<br>
