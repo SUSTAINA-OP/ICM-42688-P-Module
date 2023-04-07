@@ -125,7 +125,8 @@
     <h2>Confirmation of operation</h2>
     <p>
       The following Arduino Library https://github.com/finani/ICM42688 was used to verify the operation.<br>      
-      The Arduino Board used is "Arduiono Due". 
+      The Arduino Board used is "<a href="https://docs.arduino.cc/hardware/due">Arduino Due</a>".<br>
+      Up to 3.6V is the supply voltage for VDD and VDDIO of this module. 
       <ul>
         <li><strong>SPI</strong> : https://github.com/finani/ICM42688/tree/master/examples/Basic_SPI</li>
         Wiring with Arudino Due is done as follows.
@@ -159,12 +160,11 @@
               </tr>
               <tr>
                 <td>CS</td>
-                <td>Any GPIO<br>
-(In the case of the sample sketch, digital pin 10 of arduino due board is used .)</td>
+                <td>Any GPIO<br>(In the case of the sample sketch, digital pin 10 of arduino due board is used .)</td>
               </tr>
               <tr>
                 <td>INT1/INT</td>
-                <td></td>
+                <td>-</td>
               </tr>
               <tr>
                 <td>GND</td>
@@ -213,7 +213,7 @@
               </tr>
               <tr>
                 <td>INT1/INT</td>
-                <td></td>
+                <td>-</td>
               </tr>
               <tr>
                 <td>GND</td>
