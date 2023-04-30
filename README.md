@@ -209,7 +209,7 @@
               </tr>
               <tr>
                 <td>CS</td>
-                <td>-</td>
+                <td>3.3V</td>
               </tr>
               <tr>
                 <td>INT1/INT</td>
